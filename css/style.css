@@ -1,0 +1,55 @@
+
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #b4a0bb;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-around;
+      width: 80%;
+      max-width: 900px;
+    }
+
+    .caja {
+      text-align: center;
+      padding: 20px;
+      background-color: #b4a0bb;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border: black;
+      transition: background-color 0.4s;
+    }
+
+    .caja img {
+      width: 50px;
+      height: 50px;
+    }
+
+    .caja p {
+      margin-top: 10px;
+      font-size: 18px;
+      border-color: black;
+      transition: background-color 0.4s;
+    }
+
+    .caja button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #000000;
+      color: #ffffff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.4s;
+    }
+
+    .caja button:hover {
+      background-color: #6e017c;
+    }
